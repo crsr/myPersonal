@@ -1,11 +1,16 @@
 import Ember from 'ember';
 import config from './config/environment';
 
-var Router = Ember.Router.extend({
-  location: config.locationType
-});
+ var quotes = require('../api/quote');
+ module.exports = function(router) {
 
-Router.map(function() {
-});
 
-export default Router;
+        router.route('/quotes').post(function(req, res) { console.log(req.body); quotes.addQuote(req,res); })
+                              .get(function(req,res) { quotes.getAllQuotes(req,res) });
+        router.route('*').get(function(req, res) {
+            res.sendfile('./public/index.html'); // load our public/index.html file
+
+        });
+
+};
+
