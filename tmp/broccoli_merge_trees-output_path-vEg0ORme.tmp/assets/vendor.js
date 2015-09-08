@@ -1,0 +1,1 @@
+/opt/mypersonal/tmp/core_object-cache_path-6Q3miBhr.tmp/assets/vendor.js

@@ -1,0 +1,1 @@
+/opt/mypersonal/tmp/jshinter-output_path-X5HTrQzF.tmp/helpers/resolver.jshint.js

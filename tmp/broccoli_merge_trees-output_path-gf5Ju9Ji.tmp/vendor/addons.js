@@ -1,0 +1,1 @@
+/opt/mypersonal/tmp/core_object-cache_path-75pVq0Ig.tmp/addons.js

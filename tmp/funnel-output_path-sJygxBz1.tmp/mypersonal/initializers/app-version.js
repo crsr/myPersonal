@@ -1,0 +1,1 @@
+/opt/mypersonal/tmp/funnel-input_base_path-yM4RqSlx.tmp/0/mypersonal/initializers/app-version.js

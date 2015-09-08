@@ -1,0 +1,1 @@
+/opt/mypersonal/tmp/core_object-cache_path-5ptjd7EC.tmp/assets/mypersonal.js

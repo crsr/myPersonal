@@ -1,0 +1,1 @@
+/opt/mypersonal/tmp/funnel-input_base_path-c4gmhOuo.tmp/0/bower_components/ember-cli-test-loader/test-loader.js
