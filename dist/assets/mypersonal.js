@@ -292,7 +292,7 @@ catch(err) {
 if (runningTests) {
   require("mypersonal/tests/test-helper");
 } else {
-  require("mypersonal/app")["default"].create({"name":"mypersonal","version":"0.0.0+7c6ee19a"});
+  require("mypersonal/app")["default"].create({"name":"mypersonal","version":"0.0.0+039fb7d6"});
 }
 
 /* jshint ignore:end */
