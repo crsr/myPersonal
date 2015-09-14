@@ -20,7 +20,7 @@ app.use(bodyParser.json());       // to support JSON-encoded bodies
 //Routes API
 var router = express.Router();  
 app.use('/', router);  
-require('./app/routes')(router); // configure our routes
+require('./app/routes/pages')(router); // configure our routes
 // startup our app at http://localhost:3000
 app.listen(port);
 
