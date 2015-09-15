@@ -22,9 +22,9 @@
 <!---->
 <div class="content">
     <div class="container">
-     <a href="/">index</a>
-     <a href="about">about</a>
-     <a href="portofolio">portofolio</a>
+    {{#link-to 'index' }}Resume{{/link-to}}
+    {{#link-to 'about' }}About{{/link-to}}
+    {{#link-to 'portofolio' }}Portofolio{{/link-to}}
       {{outlet}}
        <div class="bottom_cnt">
             <div class="left_grid">
